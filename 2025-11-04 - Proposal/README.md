@@ -66,21 +66,33 @@ light-hearted but chaotic world where coding logic makes every spell. The game�
 
 - **Status Effects**: Numerous status effects will afflict players and NPCs alike through the means of spells/pickups. This includes effects like anti-gravity, burning (damage-over-time), and movement speed.
 
+  ex. An enemy NPC hits the player with a fire spell; the player will be burning and take chip damage for a certain number of frames.
+
 - **User Interface/HUD**: Players will be able to see a UI that tracks important information like pickups, health, current status afflictions w/ timers, etc.
+
+  ex. A UI bar at the bottom/top of the screen that displays the current item(s) a player has with their respective sprite.
 
 - **Moving Tiles**: Players will interact with moving pieces of environment, be it for puzzle completion or stage traversal.
 
+  ex. A moving platform over perilous terrain that a player must time their jump to correctly land on and avoid damage.
+
 - **Shaders**: Different status effects will apply unique shaders to entities in order to visually signify that the entity is afflicted with the effect.
+
+  ex. An NPC under the burning effect will have a red hue.
 
 - **Parallax**: The background of each stage will be layered in order to create a more deep, interesting environment.
 
+  ex. Mountains, forest, underwater scenery, etc.
+
 - **Lighting**: Some spells/environmental entities will illuminate the environment around them.
 
-- **Pathfinding**: Aggressive NPCs will be implemented with path-finding in order to shoot/get to the player. This can also possibly be used as a wand property.
+  ex. A fire spell saturates the colour of the pixels within a certain radius of it, creating a lighting effect.
+
+- **Pathfinding**: Aggressive NPCs will be implemented with path-finding in order to shoot/get to the player.
+
+  ex. An NPC will jump over a small wall in order to get within a sightline of the player.
 
 **Example Gameplay Scenario:**  
 In the Recursion stage, every time the player damages the boss, it splits into smaller copies of itself. The only way to end the fight is to break the recursive loop by casting a “base case” spell. Failing to do so causes the boss to duplicate endlessly, eventually overwhelming the player in a chaotic loop of infinite enemies.
-
-
 
 - **Extra**: **(Discuss)**
