@@ -30,9 +30,11 @@ light-hearted but chaotic world where coding logic makes every spell. The gameâ€
 
 - **Movement**: In addition to regular WASD movement, players will be able to **(discuss with group)**
 
-- **Bullets/Weapons**: Where the wand is highly customizable, it alone will satisfy the requirement of 3+ unique weapons. **(Discuss how to implement rest of this mechanic)**
+- **Bullets/Weapons**: Where the wand is highly customizable, it alone will satisfy the requirement of 3+ unique weapons. The player will be able to carry multiple wands which they can swap using a hotkey during the game.
 
 - **NPCS**: Players will face numerous unique enemies on their journey, each with their own attack style. While some are static, turret-like enemies, others actively patrol the stage, attacking when the player is in view.
+
+  ex. The player may encounter NPCs that shoot spells at them, reflect spells back at them, charge them with a melee attack, etc.
 
 - **Hitpoints/I-Frames**: Both the player and NPCs will have hitpoints and i-frames. Players will be able to see both their own hitpoints and their enemy's. When the player's hitpoints reach zero, they will have to restart the current stage. When an enemy's hitpoints reach zero, they will be permanently removed from the current instance of the stage. Certain enemies can have alternate phases based on their hit points remaining.
 
@@ -42,13 +44,23 @@ light-hearted but chaotic world where coding logic makes every spell. The gameâ€
 
 - **Ray Casting**: NPC vision will use ray casting in order to detect and attack the player.
 
+  ex. NPCs will spot the player if there isn't a solid object in the way.
+
 - **Gravity/Acceleration**: The player character, all NPCs, and possibly some special terrain will be affected by gravity (unless afflicted with a status affect/buff).
+
+  ex. Unless under the effect of anti-gravity, players and NPCs will logically fall downwards if there is no supporting tile underneath them.
 
 - **Camera/World View**: In addition to the player character's limited world view, players will be able to see a map with the full stage layout and their location within.
 
+  ex. A map that pops-up when a hotkey is pressed, and goes away when pressed again.
+
 - **Audio**: [Game Name] will *possibly* feature original music mixed with pre-made music and sounds that play when their respective entity is interacted with in numerous ways (health loss, death, etc.).
 
+  ex. The player hits an enemy NPC with a spell; the cast spell makes a noise and the NPC makes a noise as it takes damage.
+
 - **Assets**: [Game Name] will feature unique assets not previously provided in class.
+
+  ex. Pre-made asset packs available online in order to model terrain, NPCs, spells, etc.
 
 - **Options**: Players will be able to adjust game settings such as audio, difficulty level, and keybinds.
 
