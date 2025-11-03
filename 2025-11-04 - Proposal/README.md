@@ -31,7 +31,9 @@ It should describe the following information, and be approximately 2-3 pages in 
 
 - **NPCS**: Players will face numerous unique enemies on their journey, each with their own attack style. While some are static, turret-like enemies, others actively patrol the stage, attacking when the player is in view.
 
-- **Hitpoints/I-Frames**: Both the player and NPCs will have hitpoints and i-frames. Players will be able to see both their own hitpoints and their enemy's. When the player's hitpoints reach zero, they will have to restart the current stage. When an enemy's hitpoints reach zero, they will be permanently removed from the current instance of the stage.
+- **Hitpoints/I-Frames**: Both the player and NPCs will have hitpoints and i-frames. Players will be able to see both their own hitpoints and their enemy's. When the player's hitpoints reach zero, they will have to restart the current stage. When an enemy's hitpoints reach zero, they will be permanently removed from the current instance of the stage. Certain enemies can have alternate phases based on their hit points remaining.
+
+  ex. Every time the player damages the boss it splits into smaller copies of itself. The only way to end the fight is to break the recursive loop by casting a “base case” spell or risk a horde enemies.
 
 - **Objects/Inventory**: Players will be able to obtain item drops (whether from the environment or as drops from enemies) that boost their character in different ways such as health regeneration, movement speed buff, damage buff, anti-gravity, etc. These items will be visible in the player UI and selectable/usable via hotkeys.
 
