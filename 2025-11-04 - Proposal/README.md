@@ -80,4 +80,9 @@ light-hearted but chaotic world where coding logic makes every spell. The game�
 
 - **Pathfinding**: Aggressive NPCs will be implemented with path-finding in order to shoot/get to the player. This can also possibly be used as a wand property.
 
+**Example Gameplay Scenario:**  
+In the Recursion stage, every time the player damages the boss, it splits into smaller copies of itself. The only way to end the fight is to break the recursive loop by casting a “base case” spell. Failing to do so causes the boss to duplicate endlessly, eventually overwhelming the player in a chaotic loop of infinite enemies.
+
+
+
 - **Extra**: **(Discuss)**
