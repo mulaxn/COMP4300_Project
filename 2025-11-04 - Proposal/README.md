@@ -12,7 +12,7 @@ light-hearted but chaotic world where coding logic makes every spell. The gameâ€
 - [Game Name] will present the player with a main menu screen when initially launched. This screen will allow the user the choice of loading their game, change options, or launching the level editor.
 - After opting to play in the main menu screen, players will be presented with the overworld map, where they can choose what level to play (depending on game progression).
 - After selecting a level, the player will be placed within the main gameplay scene in which they will interact with the game's system.
-- A separate level editor will be available aside from the main gameplay scene that allows the user to play with the game's systems.
+- A separate level editor will be available aside from the main gameplay scene that allows the user to play with the game's systems including stage layout, NPC health, damage values, etc.
 - Upon death/loss, the player will be presented with a "Game Over" screen which will allow them to either quit or restart.
 
 ## Gameplay and Mechanics
