@@ -1,20 +1,12 @@
 # Project Title: Our Project Name
 
-Edit this file to contain your project proposal. Use proper markdown formatting. Your proposal will be reviewed to determine whether it is "enough work" or "too much work" for the scope of the course. 
-
-It should describe the following information, and be approximately 2-3 pages in length:
-
-- Game name / genre / overall theme / main gameplay style
-- Examples of gameplay scenarios involving each of the game mechanics described below
-- A list of "extra" features of the game which have not yet been completed in assignments 
-
 ## Introduction
 [Game Name] will be a platformer with two-dimensional, side-scroller graphics style. Players of [Game Name] will explore multiple distinctly-styled stages where they will fight enemies using a customizable wand. Their goal is to bring order to chaos by defeating a boss on each stage; the catch is, each boss is a different data structure encountered in Computer Science that must be properly interacted with in order to progress to the next stage. While being a standalone game in its own right, [Game Name] can also serve as a sort of learning tool for some simple CS data structures (think stacks, queues, etc.) by way of defeating the bosses and hence progressing through the game.
 
-[Game Name] will facilitate players' traversal of each level by giving them the ability to upgrade their wands by essentially building them up from a basic projectile weapon. Players will be able to obtain upgrades such as increased bullet speed, enemy lock-on, wall penetration and more. Each upgrade can stack and ultimately allow players to shape their wand in the way that fulfills their preferred play style. Upgrades are randomized and can be obtained either in static locations or as drops from enemies.
+[Game Name] will facilitate players' traversal of each level by giving them the ability to upgrade their wands by essentially building them up from a basic projectile weapon. Players will be able to obtain upgrades such as increased bullet speed, enemy lock-on, wall penetration and more. Each upgrade can stack and ultimately allow players to shape their wand in the way that fulfills their preferred play style. Wand uppgrades are randomized and can be obtained either in static locations or as drops from enemies.
 
-**The overall theme of the game blends magic and computer science, creating a 
-light-hearted but chaotic world where coding logic makes every spell. The game’s tone will be playful and slightly humorous, with logical puzzles and data-structure-inspired bosses that make the experience both fun and educational.**
+The overall theme of the game blends magic and computer science, creating a 
+light-hearted but chaotic world where coding logic makes every spell. The game’s tone will be playful and slightly humorous, with logical puzzles and data-structure-inspired bosses that make the experience both fun and educational.
 
 ## Game Scenes
 - [Game Name] will present the player with a main menu screen when initially launched. This screen will allow the user the choice of loading their game, change options, or launching the level editor.
@@ -90,9 +82,10 @@ light-hearted but chaotic world where coding logic makes every spell. The game�
 
 - **Pathfinding**: Aggressive NPCs will be implemented with path-finding in order to shoot/get to the player.
 
-  ex. An NPC will jump over a small wall in order to get within a sightline of the player.
+  ex. An NPC will jump over a small wall in order to see the player.
+
+- **Extra**: The game will feature a levelling system based on experience gained from enemies killed. Every level up will statically buff things such as the hover cooldown, dash cooldown, wand count, and base damage.
 
 **Example Gameplay Scenario:**  
 In the Recursion stage, every time the player damages the boss, it splits into smaller copies of itself. The only way to end the fight is to break the recursive loop by casting a “base case” spell. Failing to do so causes the boss to duplicate endlessly, eventually overwhelming the player in a chaotic loop of infinite enemies.
 
-- **Extra**: **(Discuss)**
