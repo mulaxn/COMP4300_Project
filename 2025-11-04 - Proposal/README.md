@@ -13,6 +13,9 @@ It should describe the following information, and be approximately 2-3 pages in 
 
 [Game Name] will facilitate players' traversal of each level by giving them the ability to upgrade their wands by essentially building them up from a basic projectile weapon. Players will be able to obtain upgrades such as increased bullet speed, enemy lock-on, wall penetration and more. Each upgrade can stack and ultimately allow players to shape their wand in the way that fulfills their preferred play style. Upgrades can be obtained **throughout each level through a randomized list (discuss with group)** .
 
+**The overall theme of the game blends magic and computer science, creating a 
+light-hearted but chaotic world where coding logic makes every spell. The game’s tone will be playful and slightly humorous, with logical puzzles and data-structure-inspired bosses that make the experience both fun and educational.**
+
 ## Game Scenes
 - [Game Name] will present the player with a main menu screen when initially launched. This screen will allow the user the choice of loading their game, change options, or launching the level editor.
 - After opting to play in the main menu screen, players will be presented with the overworld map, where they can choose what level to play (depending on game progression).
