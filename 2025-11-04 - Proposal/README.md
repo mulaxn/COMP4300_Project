@@ -11,7 +11,7 @@ It should describe the following information, and be approximately 2-3 pages in 
 ## Introduction
 [Game Name] will be a platformer with two-dimensional, side-scroller graphics style. Players of [Game Name] will explore multiple distinctly-styled stages where they will fight enemies using a customizable wand. Their goal is to bring order to chaos by defeating a boss on each stage; the catch is, each boss is a different data structure encountered in Computer Science that must be properly interacted with in order to progress to the next stage. While being a standalone game in its own right, [Game Name] can also serve as a sort of learning tool for some simple CS data structures (think stacks, queues, etc.) by way of defeating the bosses and hence progressing through the game.
 
-[Game Name] will facilitate players' traversal of each level by giving them the ability to upgrade their wands by essentially building them up from a basic projectile weapon. Players will be able to obtain upgrades such as increased bullet speed, enemy lock-on, wall penetration and more. Each upgrade can stack and ultimately allow players to shape their wand in the way that fulfills their preferred play style. Upgrades can be obtained **throughout each level through a randomized list (discuss with group)** .
+[Game Name] will facilitate players' traversal of each level by giving them the ability to upgrade their wands by essentially building them up from a basic projectile weapon. Players will be able to obtain upgrades such as increased bullet speed, enemy lock-on, wall penetration and more. Each upgrade can stack and ultimately allow players to shape their wand in the way that fulfills their preferred play style. Upgrades are randomized and can be obtained either in static locations or as drops from enemies.
 
 **The overall theme of the game blends magic and computer science, creating a 
 light-hearted but chaotic world where coding logic makes every spell. The game‚Äôs tone will be playful and slightly humorous, with logical puzzles and data-structure-inspired bosses that make the experience both fun and educational.**
@@ -28,7 +28,7 @@ light-hearted but chaotic world where coding logic makes every spell. The game‚Ä
 
 - **Collisions**: Players will traverse a 2D, sidescroller environment where their character must follow the level's environment design (cannot go through walls/floors). All interactable (i.e. not decorative) entities will have bounding boxes used by AABB collision detection in order to resolve situations like bullet hit registration.
 
-- **Movement**: In addition to regular WASD movement, players will be able to **(discuss with group)**
+- **Movement**: In addition to regular WASD movement, players will be able to hover in the air for a fixed amount of time (if not on a supporting tile) and dash with i-frames. Both movement abilities will have a cooldown.
 
 - **Bullets/Weapons**: Where the wand is highly customizable, it alone will satisfy the requirement of 3+ unique weapons. The player will be able to carry multiple wands which they can swap using a hotkey during the game.
 
@@ -37,8 +37,6 @@ light-hearted but chaotic world where coding logic makes every spell. The game‚Ä
   ex. The player may encounter NPCs that shoot spells at them, reflect spells back at them, charge them with a melee attack, etc.
 
 - **Hitpoints/I-Frames**: Both the player and NPCs will have hitpoints and i-frames. Players will be able to see both their own hitpoints and their enemy's. When the player's hitpoints reach zero, they will have to restart the current stage. When an enemy's hitpoints reach zero, they will be permanently removed from the current instance of the stage. Certain enemies can have alternate phases based on their hit points remaining.
-
-  ex. Every time the player damages the boss it splits into smaller copies of itself. The only way to end the fight is to break the recursive loop by casting a ‚Äúbase case‚Äù spell or risk a horde enemies.
 
 - **Objects/Inventory**: Players will be able to obtain item drops (whether from the environment or as drops from enemies) that boost their character in different ways such as health regeneration, movement speed buff, damage buff, anti-gravity, etc. These items will be visible in the player UI and selectable/usable via hotkeys.
 
