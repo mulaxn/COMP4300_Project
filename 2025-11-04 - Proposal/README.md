@@ -20,9 +20,15 @@ light-hearted but chaotic world where coding logic makes every spell. The gameâ€
 
 - **Collisions**: Players will traverse a 2D, sidescroller environment where their character must follow the level's environment design (cannot go through walls/floors). All interactable (i.e. not decorative) entities will have bounding boxes used by AABB collision detection in order to resolve situations like bullet hit registration.
 
+  ex. A spell cast at an enemy NPC will only damage them if their bounding boxes collide.
+
 - **Movement**: In addition to regular WASD movement, players will be able to hover in the air for a fixed amount of time (if not on a supporting tile) and dash with i-frames. Both movement abilities will have a cooldown.
 
+  ex. The player may hover over a small gap which would have caused damage to them.
+
 - **Bullets/Weapons**: Where the wand is highly customizable, it alone will satisfy the requirement of 3+ unique weapons. The player will be able to carry multiple wands which they can swap using a hotkey during the game.
+
+  ex. Wand 1 may be better than Wand 2 for dealing with certain situations.
 
 - **NPCS**: Players will face numerous unique enemies on their journey, each with their own attack style. While some are static, turret-like enemies, others actively patrol the stage, attacking when the player is in view.
 
@@ -31,6 +37,8 @@ light-hearted but chaotic world where coding logic makes every spell. The gameâ€
 - **Hitpoints/I-Frames**: Both the player and NPCs will have hitpoints and i-frames. Players will be able to see both their own hitpoints and their enemy's. When the player's hitpoints reach zero, they will have to restart the current stage. When an enemy's hitpoints reach zero, they will be permanently removed from the current instance of the stage. Certain enemies can have alternate phases based on their hit points remaining.
 
 - **Objects/Inventory**: Players will be able to obtain item drops (whether from the environment or as drops from enemies) that boost their character in different ways such as health regeneration, movement speed buff, damage buff, anti-gravity, etc. These items will be visible in the player UI and selectable/usable via hotkeys.
+
+  ex. The player picks up a health potion off a dead enemy which restores their hit points if used.
 
 - **Ray Casting**: NPC vision will use ray casting in order to detect and attack the player.
 
