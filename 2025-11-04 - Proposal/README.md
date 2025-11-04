@@ -1,22 +1,22 @@
-# Project Title: Our Project Name
+# Project Title: De-Structure
 
 ## Introduction
-[Game Name] will be a platformer with two-dimensional, side-scroller graphics style. Players of [Game Name] will explore multiple distinctly-styled stages where they will fight enemies using a customizable wand. Their goal is to bring order to chaos by defeating a boss on each stage; the catch is, each boss is a different data structure encountered in Computer Science that must be properly interacted with in order to progress to the next stage. While being a standalone game in its own right, [Game Name] can also serve as a sort of learning tool for some simple CS data structures (think stacks, queues, etc.) by way of defeating the bosses and hence progressing through the game.
+De-Structure will be a platformer with two-dimensional, side-scroller graphics style. Players of De-Structure will explore multiple distinctly-styled stages where they will fight enemies using a customizable wand. Their goal is to bring order to chaos by defeating a boss on each stage; the catch is, each boss is a different data structure encountered in Computer Science that must be properly interacted with in order to progress to the next stage. While being a standalone game in its own right, De-Structure can also serve as a sort of learning tool for some simple CS data structures (think stacks, queues, etc.) by way of defeating the bosses and hence progressing through the game.
 
-[Game Name] will facilitate players' traversal of each level by giving them the ability to upgrade their wands by essentially building them up from a basic projectile weapon. Players will be able to obtain upgrades such as increased bullet speed, enemy lock-on, wall penetration and more. Each upgrade can stack and ultimately allow players to shape their wand in the way that fulfills their preferred play style. Wand uppgrades are randomized and can be obtained either in static locations or as drops from enemies.
+De-Structure will facilitate players' traversal of each level by giving them the ability to upgrade their wands by essentially building them up from a basic projectile weapon. Players will be able to obtain upgrades such as increased bullet speed, enemy lock-on, wall penetration and more. Each upgrade can stack and ultimately allow players to shape their wand in the way that fulfills their preferred play style. Wand uppgrades are randomized and can be obtained either in static locations or as drops from enemies.
 
 The overall theme of the game blends magic and computer science, creating a 
 light-hearted but chaotic world where coding logic makes every spell. The gameâ€™s tone will be playful and slightly humorous, with logical puzzles and data-structure-inspired bosses that make the experience both fun and educational.
 
 ## Game Scenes
-- [Game Name] will present the player with a main menu screen when initially launched. This screen will allow the user the choice of loading their game, change options, or launching the level editor.
+- De-Structure will present the player with a main menu screen when initially launched. This screen will allow the user the choice of loading their game, change options, or launching the level editor.
 - After opting to play in the main menu screen, players will be presented with the overworld map, where they can choose what level to play (depending on game progression).
 - After selecting a level, the player will be placed within the main gameplay scene in which they will interact with the game's system.
 - A separate level editor will be available aside from the main gameplay scene that allows the user to play with the game's systems including stage layout, NPC health, damage values, etc.
 - Upon death/loss, the player will be presented with a "Game Over" screen which will allow them to either quit or restart.
 
 ## Gameplay and Mechanics
-[Game Name] will fully satisfy the required project mechanics:
+De-Structure will fully satisfy the required project mechanics:
 
 - **Collisions**: Players will traverse a 2D, sidescroller environment where their character must follow the level's environment design (cannot go through walls/floors). All interactable (i.e. not decorative) entities will have bounding boxes used by AABB collision detection in order to resolve situations like bullet hit registration.
 
@@ -52,11 +52,11 @@ light-hearted but chaotic world where coding logic makes every spell. The gameâ€
 
   ex. A map that pops-up when a hotkey is pressed, and goes away when pressed again.
 
-- **Audio**: [Game Name] will *possibly* feature original music mixed with pre-made music and sounds that play when their respective entity is interacted with in numerous ways (health loss, death, etc.).
+- **Audio**: De-Structure will *possibly* feature original music mixed with pre-made music and sounds that play when their respective entity is interacted with in numerous ways (health loss, death, etc.).
 
   ex. The player hits an enemy NPC with a spell; the cast spell makes a noise and the NPC makes a noise as it takes damage.
 
-- **Assets**: [Game Name] will feature unique assets not previously provided in class.
+- **Assets**: De-Structure will feature unique assets not previously provided in class.
 
   ex. Pre-made asset packs available online in order to model terrain, NPCs, spells, etc.
 
